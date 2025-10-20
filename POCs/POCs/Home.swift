@@ -21,6 +21,7 @@ struct Home: View{
                 .resizable()
                 .scaledToFit()
             VStack{
+                //"efeito mitose", imita o comportamento de água entre botoes com id definido.
                 GlassEffectContainer(spacing: 60.0) {
                     HStack(spacing: 10.0) {
                         Image(systemName: "scribble.variable")
